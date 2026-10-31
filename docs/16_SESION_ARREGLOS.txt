@@ -1,0 +1,48 @@
+### 1 · El tamaño ahora se nota (P-11)
+--- muelle --tamaño compacto estado
+────────────────────────────────────────────────────────────
+--- muelle --tamaño normal estado
+────────────────────────────────────────────────────────────────────────────────
+--- muelle --tamaño gigante estado
+────────────────────────────────────────────────────────────────
+--- muelle --tamaño amplio estado
+⚠ Tu ventana es pequeña, así que se usa el tamaño Normal. Agrándala y vuelve a entrar para verlo mayor.
+   (amplio pide 90x34; esta ventana es menor, así que lo dice y se encoge)
+
+### 2 · Una bandera mal puesta y un valor inválido (P-03)
+  ⚠ La opción --sin-color vale para todo el programa, así que va delante: muelle --sin-color estado
+  ⚠ «control» no es un valor válido para --rol. Puedes usar: lectura, escritura, total.
+  ⚠ No reconozco esa acción.
+  ¿Querías decir «arrancar»?
+
+### 3 · Arranque: carpeta de cada usuario y fichero de ajustes (P-07, P-10)
+PREPARANDO EL SERVIDOR
+────────────────────────────────────────────────────────────────────────────────
+
+  ✓ Servidor en marcha. Comparte estos datos con quien se vaya a conectar:
+
+    Dirección  ftp://127.0.0.1:2121
+    Usuarios   ana → /home/user/Compartido/ana
+    Cifrado    no
+    Ajustes    /home/user/.config/muelle/config.json
+
+  Para detenerlo, pulsa Ctrl+C
+
+
+### 4 · El diagnóstico se reconoce a sí mismo (P-02)
+  ✖ Muelle ya está en marcha en el puerto 2121; no hace falta arrancarlo otra vez.
+
+### 5 · El cliente maleducado ya no se cuelga (P-09)
+PORT 127,0,0,1,200,1
+  502 Active mode is disabled; use PASV or EPSV.       [0.00s]
+LIST
+  425 Use PORT or PASV first.                          [0.00s]
+
+### 6 · Y un cliente normal sigue trabajando igual de bien
+  listado: ['prueba.txt']
+  bajado : ida y vuelta
+  • Cerrando conexiones...
+  ✓ Servidor detenido. Conexiones cerradas: 1.
+
+### 7 · Con el servidor parado, el diagnóstico vuelve a estar limpio
+  ✓ Todo listo para arrancar.

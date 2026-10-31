@@ -1,0 +1,61 @@
+╭────────────────────────────────────────────────────────────────╮
+│ Instalador de Muelle  ›  muelle-0.3.1.zip                      │
+╰────────────────────────────────────────────────────────────────╯
+▶ Revisar si quedó algo a medias
+✓ No hay nada a medias          
+▶ Comprobar que Muelle está parado
+✓ Muelle está parado              
+▶ Abrir la entrega y leer lo que trae
+✓ Entrega 0.3.1, 1 archivo           
+▶ Comprobar las firmas antes de escribir nada
+✓ La firma coincide                          
+▶ Comprobar que cabe
+✓ Cabe el MB que hace falta
+▶ Guardar una copia de lo que se sustituye
+✓ No hay nada que sustituir, así que no hay nada que copiar
+▶ Colocar los archivos nuevos
+✓ 1 archivo colocado         
+▶ Verificar lo escrito
+✓ Todo coincide con lo que debía quedar
+▶ Probar Muelle
+✓ Las pruebas de Muelle salen bien
+▶ Cerrar y dejar constancia
+✓ Instalada la entrega 0.3.1.
+⚠ La entrega queda guardada en .muelle/paquetes/2026-10-21-204928-410.
+
+╭────────────────────────────────────────────────────────────────╮
+│ Instalador de Muelle  ›  muelle-0.3.2.zip                      │
+╰────────────────────────────────────────────────────────────────╯
+▶ Revisar si quedó algo a medias
+✓ No hay nada a medias          
+▶ Comprobar que Muelle está parado
+✓ Muelle está parado              
+▶ Abrir la entrega y leer lo que trae
+✓ Entrega 0.3.2, 1 archivo           
+▶ Comprobar las firmas antes de escribir nada
+✓ La firma coincide                          
+▶ Comprobar que cabe
+✓ Cabe el MB que hace falta
+▶ Guardar una copia de lo que se sustituye
+✓ Copia guardada: 1 archivo               
+▶ Colocar los archivos nuevos
+✓ 1 archivo colocado         
+▶ Verificar lo escrito
+✓ Todo coincide con lo que debía quedar
+▶ Probar Muelle
+✖ Algo no ha ido bien; estoy dejando todo como estaba.
+⚠ La entrega queda apartada en .muelle/paquetes/2026-10-21-204954-211, marcada como rechazada.
+
+╭────────────────────────────────────────────────────────────────╮
+│ Instalador de Muelle                                           │
+├────────────────────────────────────────────────────────────────┤
+│ Fecha             Entrega      Estado       Archivos           │
+│                                                                │
+│ 2026-10-21 20:49  0.3.2        deshecho     1                  │
+│ 2026-10-21 20:49  0.3.1        instalado    1                  │
+╰────────────────────────────────────────────────────────────────╯
+✓ Hoy se puede volver a lo de 2026-10-21.
+
+✓ El archivo está como se instaló.
+
+✓ Muelle ha vuelto a como estaba el 2026-10-21.

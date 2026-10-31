@@ -1,0 +1,286 @@
+MUELLE · MAQUETAS DE LA INTERFAZ
+Propuesta visual · fase 2 · NADA DE ESTO ESTÁ IMPLEMENTADO
+
+Muelle es una herramienta de línea de órdenes. No hay, ni habrá, interfaz web:
+lo que ves aquí es exactamente lo que se dibuja en una terminal de texto.
+
+Las pantallas están generadas con la geometría real (100 columnas, 80 en el modo
+pobre) y con la paleta real de muelle/resources/themes/*.json, así que lo que
+cabe aquí es lo que cabe allí.
+
+   maquetas en texto plano   docs/07_MAQUETAS_CLI.txt
+   maquetas en color         cat docs/07_MAQUETAS_CLI.ans   (en tu terminal)
+   quien las dibuja          docs/propuestas/generador_maquetas.py
+
+Revisión 2 (21-10-2026): maquetas M1-M5 aprobadas. Esta revisión añade M7 (tamaño de la
+interfaz) y amplía M6 (temas) a petición tuya. M7 y los dos temas nuevos están pendientes
+de aprobación.
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+M1 · Panel en vivo
+$ muelle panel
+La pantalla principal: una ojeada y sabes qué está pasando. Paneles numerados, tabla con la fila elegida y detalle de esa fila debajo.
+────────────────────────────────────────────────────────────────────────────────────────────────────
+
+ muelle 0.3.0  comparte una carpeta                           14:32   ● 3 conexiones   ○ sin cifrado
+┌─¹servidor────────────────────────────────────────────────────────────────────────────────────────┐
+│ ftp://192.168.1.50:2121   en marcha desde las 13:58 · 34 min     Subiendo ▂▃▅▇▆▄▂▃▅▆▇▅  1,8 MB/s │
+│ Carpeta  /home/ana/Compartido                                    Bajando  ▁▁▂▂▁▃▂▁▁▂▁▁  0,4 MB/s │
+│ Espacio  ████████████░░░░░░░░  58 %  ·  21,4 GB libres           Hoy  1,2 GB ↑ · 340 MB ↓        │
+└──────────────────────────────────────────────────────────────────────────────────────────────────┘
+┌─²gente─────────────────────┐┌─³avisos──────────────────────────┐┌─⁴puertas───────────────────────┐
+│ ● ana      conectada       ││ ⚠ Nadie cifra la conexión        ││ Control  2121   abierto        │
+│ ● luis     conectada       ││ ⚠ 2 contraseñas falladas         ││ Datos    50000-50050           │
+│ ● carmen   conectada       ││   (desde 192.168.1.90)           ││ En uso   3 de 51               │
+│ ○ dani     sin entrar      ││ ✓ Carpeta y permisos bien        ││ Red      local (LAN)           │
+└────────────────────────────┘└──────────────────────────────────┘└────────────────────────────────┘
+┌─⁵conexiones──────────────────────────────────────────────────────────────────────────────────────┐
+│   Quién    Equipo          Qué hace      Archivo                  Avance          Velocidad Rato │
+│ ▶ ana      192.168.1.23    subiendo      vacaciones/DSC_0421.jpg  ███████░░░ 68 % 1,4 MB/s  0:12 │
+│   luis     192.168.1.41    descargando   informe-anual.pdf        ██░░░░░░░░ 19 % 0,4 MB/s  0:31 │
+│   carmen   192.168.1.17    mirando       /fotos                   —               —         2:05 │
+└──────────────────────────────────────────────────────────────────────────────────────────────────┘
+┌─ana · 192.168.1.23 · entró a las 14:19───────────────────────────────────────────────────────────┐
+│ Permisos  subir y descargar             Su carpeta  /home/ana/Compartido/ana                     │
+│ Lo último  (6 acciones en 48 s)                                                                  │
+│   ✓ Subió     vacaciones/DSC_0418.jpg   ████████████████                    4,2 MB   8,1 s       │
+│   ✓ Subió     vacaciones/DSC_0419.jpg   ███████████                         3,1 MB   5,4 s       │
+│   ✓ Miró      /vacaciones               ▏                                   —        0,1 s       │
+│   ◆ Subiendo  vacaciones/DSC_0421.jpg   ███████▌                            2,8 MB   en curso    │
+└──────────────────────────────────────────────────────────────────────────────────────────────────┘
+ ↑↓ elegir  c cerrar conexión  / filtrar  r registro  t tema  +− tamaño  p pausar  q salir  cada 1 s
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+M2 · La misma pantalla en una terminal pobre
+$ muelle panel   (80 columnas, sin Unicode, sin color)
+Mismo contenido, misma jerarquía, cero adornos: se degrada con elegancia.
+────────────────────────────────────────────────────────────────────────────────────────────────────
+
+ muelle 0.3.0 - comparte una carpeta            14:32  3 conexiones  sin cifrado
++-1.servidor-------------------------------------------------------------------+
+| ftp://192.168.1.50:2121    en marcha desde las 13:58 (34 min)                |
+| Carpeta  /home/ana/Compartido                                                |
+| Espacio  [############........]  58 %  ·  21,4 GB libres                     |
+| Subiendo 1,8 MB/s   Bajando 0,4 MB/s   Hoy 1,2 GB subidos / 340 MB bajados   |
++------------------------------------------------------------------------------+
++-2.conexiones-----------------------------------------------------------------+
+|   Quien    Equipo         Que hace      Archivo              Avance    Rato  |
+| > ana      192.168.1.23   subiendo      DSC_0421.jpg         68 %      0:12  |
+|   luis     192.168.1.41   descargando   informe-anual.pdf    19 %      0:31  |
+|   carmen   192.168.1.17   mirando       /fotos               -         2:05  |
++------------------------------------------------------------------------------+
+ flechas elegir   c cerrar conexion   / filtrar   t tema   +- tamano   q salir
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+M3 · Asistente de primera vez
+$ muelle   (sin configurar)
+Cuatro pasos, una pregunta por pantalla, siempre con una propuesta aceptable pulsando Enter.
+────────────────────────────────────────────────────────────────────────────────────────────────────
+
+┌─primera vez · paso 2 de 4────────────────────────────────────────────────────────────────────────┐
+│ ████████████████████████████████████████████████████████████████████████  50 %                   │
+│                                                                                                  │
+│ ¿Qué carpeta quieres compartir?                                                                  │
+│                                                                                                  │
+│ Escribe una ruta o pulsa Enter para aceptar la propuesta.                                        │
+│                                                                                                  │
+│   > /home/ana/Compartido▏                                                                        │
+│                                                                                                  │
+│ ✓ La carpeta existe y puedes escribir en ella.                                                   │
+│   Dentro hay 128 archivos (2,4 GB).                                                              │
+│                                                                                                  │
+└──────────────────────────────────────────────────────────────────────────────────────────────────┘
+ Enter aceptar    Ctrl+C salir sin cambiar nada                  paso 1 ✓ · paso 2 · paso 3 · paso 4
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+M4 · Instalar una entrega
+$ herramientas/instalar.py  muelle-0.3.0.zip
+Verificar antes de tocar nada, copia de seguridad, recibo al final.
+────────────────────────────────────────────────────────────────────────────────────────────────────
+
+┌─instalar · muelle-0.3.0.zip──────────────────────────────────────────────────────────────────────┐
+│ Paquete   muelle-0.3.0.zip   138 KB · 58 archivos                                                │
+│ Destino   /opt/muelle        versión actual: 0.2.0                                               │
+│                                                                                                  │
+│ ✓ El paquete se abre y no trae sorpresas   (sin enlaces, sin rutas raras, 58 de 10 000)          │
+│ ✓ Cada archivo coincide con su firma       (58 de 58 comprobados)                                │
+│ ✓ Copia de seguridad de lo que se sustituye (24 archivos guardados)                              │
+│ ◆ Copiando archivos                        ████████████████████  41 de 58                        │
+│ ○ Comprobar la instalación                                                                       │
+│ ○ Guardar el recibo                                                                              │
+│                                                                                                  │
+│ Si algo sale mal, nada queda a medias: se deshace solo y te lo cuenta.                           │
+└──────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+┌─instalar · terminado─────────────────────────────────────────────────────────────────────────────┐
+│ ✓ Muelle 0.3.0 instalado.  34 archivos nuevos · 24 sustituidos · 0 borrados                      │
+│                                                                                                  │
+│ Recibo   /opt/muelle/.muelle/recibos/0.3.0.json                                                  │
+│ Copias   /opt/muelle/.muelle/copias/2026-10-21-1432/                                             │
+│                                                                                                  │
+│ Para volver a la versión anterior en cualquier momento:  muelle deshacer                         │
+└──────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+M5 · Deshacer la instalación
+$ herramientas/instalar.py  --deshacer
+Vuelta atrás con confirmación escrita, borrado del ZIP rechazado y negativa segura si algo cambió.
+────────────────────────────────────────────────────────────────────────────────────────────────────
+
+┌─deshacer la última instalación───────────────────────────────────────────────────────────────────┐
+│ Se instaló   muelle 0.3.0   hoy a las 14:32 (hace 6 min)                                         │
+│ Recibo       0.3.0.json    comprobado: coincide con lo que hay en disco                          │
+│                                                                                                  │
+│ Esto va a                                                                                        │
+│   · devolver 24 archivos a como estaban                                                          │
+│   · quitar   34 archivos que trajo esta versión                                                  │
+│   · borrar   muelle-0.3.0.zip (solo ese, en su sitio y con su firma)                             │
+│                                                                                                  │
+│ ⚠ Tus ajustes, usuarios y archivos compartidos no se tocan.                                      │
+│                                                                                                  │
+│ Escribe  DESHACER  para confirmar:  > ▏                                                          │
+└──────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+┌─deshacer · hecho─────────────────────────────────────────────────────────────────────────────────┐
+│ ✓ Vuelves a tener la versión 0.2.0, tal y como estaba.                                           │
+│   24 archivos devueltos · 34 quitados · paquete rechazado borrado                                │
+│                                                                                                  │
+│ Informe  /opt/muelle/.muelle/recibos/0.3.0-deshecho.json                                         │
+└──────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+┌─deshacer · cuando NO se puede────────────────────────────────────────────────────────────────────┐
+│ ✖ Alguien tocó 3 de los archivos después de instalar.                                            │
+│                                                                                                  │
+│ Qué puedes hacer                                                                                 │
+│   Guarda una copia de esos tres y vuelve a intentarlo:                                           │
+│   muelle/ui/render.py · muelle/api.py · config.json                                              │
+│                                                                                                  │
+│ No se ha tocado nada. Deshacer solo actúa si está todo como lo dejó.                             │
+└──────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+M7 · Tamaño de la interfaz
+$ muelle panel --tamano compacto | normal | amplio | gigante
+Cuatro escalas de la misma pantalla, porque la fuente del terminal no es nuestra.
+────────────────────────────────────────────────────────────────────────────────────────────────────
+
+ Tu terminal manda en la fuente: ningún programa puede agrandarla igual en Linux, Windows y macOS.
+ Lo que Muelle sí decide es cuánto sitio ocupa cada cosa. Cuatro tamaños, la misma información.
+
+┌─1 compacto · cabe en 24 líneas × 80 columnas (consola de servidor, portátil pequeño)─────────────┐
+│ ftp://192.168.1.50:2121   ● 3 conexiones   58 % disco  ↑1,8 MB/s  ↓0,4 MB/s   34 min en marcha   │
+│ ▶ ana sube DSC_0421.jpg 68 %      luis baja informe.pdf 19 %       carmen mira /fotos            │
+└──────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+┌─2 normal · el de la maqueta M1; lo que verás casi siempre────────────────────────────────────────┐
+│ Carpeta  /home/ana/Compartido                   Subiendo ▂▃▅▇▆▄▂▃▅▆▇▅  1,8 MB/s                  │
+│ Espacio  ████████████░░░░░░░░  58 %             Bajando  ▁▁▂▂▁▃▂▁▁▂▁▁  0,4 MB/s                  │
+└──────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+┌─3 amplio · una cosa por línea y más aire; para quien lee de lejos────────────────────────────────┐
+│                                                                                                  │
+│   Espacio del disco     ████████████████████████████████████████████  58 %                       │
+│                                                                                                  │
+│   Subiendo ahora        ▂▃▅▇▆▄▂▃▅▆▇▅▇▆▄▂▃▅                            1,8 MB/s                   │
+│                                                                                                  │
+└──────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+┌─4 gigante · un dato cada vez, en cifras de bloque; se lee desde la otra punta────────────────────┐
+│  ███ ███ █ █                                    █     ███                                        │
+│  █   █ █   █  del disco en uso                  █     █ █  MB/s subiendo                         │
+│  ███ ███  █   21,4 GB libres                    █     ███  0,4 MB/s bajando                      │
+│    █ █ █ █                                      █   █ █ █                                        │
+│  ███ ███ █ █                                    █  █  ███                                        │
+└──────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+ Se cambia  + y − en el panel  ·  muelle panel --tamano gigante  ·  interfaz.escala en config.json
+ No hacemos  tocar la fuente de tu terminal a tus espaldas: ahí mandas tú (Ctrl y + en casi todas).
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+M6 · Temas
+Muelle no trae «un tema»: trae un cargador de temas. Cada tema es un JSON de 13 colores; añadir
+uno es copiar un fichero en la carpeta, sin tocar una línea de código.
+────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  Obligatorios (mandato G-07)      muelle/resources/themes/
+    oscuro           terminal de fondo oscuro, el de toda la vida
+    claro            fondo blanco, para trabajar con luz natural de frente
+    sepia            lectura larga: menos azul, menos contraste, menos cansancio
+
+  Propuestos ahora (pendientes de tu visto bueno)   docs/propuestas/temas/
+    alto_contraste   baja visión, proyectores y pantallas con reflejos: todo negrita, contraste máximo
+    daltonico        daltonismo rojo-verde (~8 % de los hombres): bien y mal se distinguen por azul
+                     frente a naranja, y además por símbolo, nunca solo por color
+
+  Tuyos
+    mi_tema.json     cualquier fichero que dejes en la carpeta sale en «t tema» y en config.json
+
+  Cuando el terminal no da para tanto, el tema no se apaga: se traduce.
+    color verdadero  la paleta tal cual, 24 bits                      [ya implementado]
+    16 colores       el código «basico» que cada token lleva escrito  [ya implementado]
+    sin color        negrita, subrayado y símbolos (✓ ⚠ ✗ ▶) hacen el trabajo del color  [implementado]
+    256 colores      el más parecido de la paleta de 256             [mejora propuesta]
+    sin Unicode      marcos con +-| y barras con [####....]          [ya implementado, maqueta M2]
+
+  En texto plano los cinco temas se ven idénticos: ese es justo el punto del modo sin color.
+  Para verlos de verdad:   cat docs/07_MAQUETAS_CLI.ans
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+M8 · Cinco temas de terminal clásica  ·  los que me pasaste
+En texto plano se ven los cinco iguales. Para verlos de verdad:  cat docs/07_MAQUETAS_CLI.ans
+────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  Nombre           Tinta      Fondo      Idea
+  fosforo          #33FF66    #071A0D    tubo de fósforo verde, el clásico de las salas de máquinas
+  ambar            #FFB000    #1C1000    terminal ámbar (VT220, IBM 3279): menos azul, menos fatiga
+  blanco_calido    #E8E2C8    #171712    papel viejo sobre negro: neutro, sin tinte que canse
+  verde_apagado    #A8C686    #20291B    fósforo cansado: el verde sin gritar, para sesiones largas
+  fosforo_color    varios     #071A0D    el fósforo con todos los papeles de color repartidos
+
+  Los cuatro primeros son de un solo fósforo: la jerarquía se hace con BRILLO, no con tono.
+  tenue = tinta mezclada con el fondo · titulo/aviso/error = tinta aclarada + negrita.
+  Por eso existe el mandato G-24: en estos temas el color no puede ser la única señal,
+  y nunca lo es (✓ bien · ⚠ atención · ✗ mal · ▶ elegido · ○ inactivo).
+
+  Reparto de papeles del tema fosforo_color, tal y como lo pediste:
+
+    Lo que pediste        Token de Muelle          Color
+    Fondo                 fondo                    #071A0D
+    Texto normal          texto                    #33FF66
+    Prompt                acento                   #A8FFB0
+    Comandos              valor                    #FFB000
+    Directorios           titulo + exito           #66FF99
+    Errores               error                    #FF5C5C
+    Selección             resaltado                texto #E8FFE8 sobre fondo #1E6B3A
+
+  Dos cosas que esto cambia en el contrato (apéndice A de docs/04_CONTRATOS.md):
+    1. El tema pasa a poder traer FONDO. Hasta ahora Muelle solo ponía la tinta y respetaba
+       el fondo de tu terminal. Pintar el fondo solo tiene sentido en el panel, que toma la
+       pantalla entera; en las órdenes sueltas se seguirá respetando tu terminal.
+    2. Un token puede traer su propio fondo (la selección). Era necesario para tu paleta nº5.
+
+  La sesión de ejemplo, en texto plano:
+
+ ana@nave:~/Compartido$ muelle compartir . --puerto 2121
+ ✓ Listo. Tu carpeta ya se ve desde la red:  ftp://192.168.1.50:2121
+ Déjalo abierto mientras lo uséis. Para pararlo: muelle parar
+
+ ana@nave:~/Compartido$ muelle gente
+   Quién     Equipo          Puede                 Entró     Ahora
+ ● ana       192.168.1.23    subir y descargar     14:19     subiendo DSC_0421.jpg
+ ● luis      192.168.1.41    solo descargar        14:02     bajando informe-anual.pdf
+ ○ dani      —               solo descargar        —         sin entrar hoy
+
+ ana@nave:~/Compartido$ muelle carpeta
+   vacaciones/               34 archivos   1,2 GB      modificada hoy a las 14:28
+   informes/                 8 archivos    46 MB       modificada ayer
+   informe-anual.pdf         —             4,1 MB      modificado el 12 de octubre
+
+ ana@nave:~/Compartido$ muelle compartir /raiz
+ ✗ No puedo compartir esa carpeta: el sistema no me deja leerla.
+   Pruebe con una carpeta suya, por ejemplo ~/Compartido.
+
+ ana@nave:~/Compartido$ muelle panel
+ (la fila elegida se ve así)
+  ▶ ana · 192.168.1.23 · subiendo vacaciones/DSC_0421.jpg · 68 % · 1,4 MB/s      ↑↓ elegir
+

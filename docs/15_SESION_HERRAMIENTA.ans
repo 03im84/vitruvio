@@ -1,0 +1,61 @@
+[90m╭────────────────────────────────────────────────────────────────╮[0m
+[90m│[0m [1;96mInstalador de Muelle  ›  muelle-0.3.1.zip[0m                      [90m│[0m
+[90m╰────────────────────────────────────────────────────────────────╯[0m
+[94m▶[0m Revisar si quedó algo a medias
+[92m✓[0m No hay nada a medias          
+[94m▶[0m Comprobar que Muelle está parado
+[92m✓[0m Muelle está parado              
+[94m▶[0m Abrir la entrega y leer lo que trae
+[92m✓[0m Entrega 0.3.1, 1 archivo           
+[94m▶[0m Comprobar las firmas antes de escribir nada
+[92m✓[0m La firma coincide                          
+[94m▶[0m Comprobar que cabe
+[92m✓[0m Cabe el MB que hace falta
+[94m▶[0m Guardar una copia de lo que se sustituye
+[92m✓[0m No hay nada que sustituir, así que no hay nada que copiar
+[94m▶[0m Colocar los archivos nuevos
+[92m✓[0m 1 archivo colocado         
+[94m▶[0m Verificar lo escrito
+[92m✓[0m Todo coincide con lo que debía quedar
+[94m▶[0m Probar Muelle
+[92m✓[0m Las pruebas de Muelle salen bien
+[94m▶[0m Cerrar y dejar constancia
+[92m✓[0m Instalada la entrega 0.3.1.
+[93m⚠[0m La entrega queda guardada en .muelle/paquetes/2026-10-21-204928-410.
+
+[90m╭────────────────────────────────────────────────────────────────╮[0m
+[90m│[0m [1;96mInstalador de Muelle  ›  muelle-0.3.2.zip[0m                      [90m│[0m
+[90m╰────────────────────────────────────────────────────────────────╯[0m
+[94m▶[0m Revisar si quedó algo a medias
+[92m✓[0m No hay nada a medias          
+[94m▶[0m Comprobar que Muelle está parado
+[92m✓[0m Muelle está parado              
+[94m▶[0m Abrir la entrega y leer lo que trae
+[92m✓[0m Entrega 0.3.2, 1 archivo           
+[94m▶[0m Comprobar las firmas antes de escribir nada
+[92m✓[0m La firma coincide                          
+[94m▶[0m Comprobar que cabe
+[92m✓[0m Cabe el MB que hace falta
+[94m▶[0m Guardar una copia de lo que se sustituye
+[92m✓[0m Copia guardada: 1 archivo               
+[94m▶[0m Colocar los archivos nuevos
+[92m✓[0m 1 archivo colocado         
+[94m▶[0m Verificar lo escrito
+[92m✓[0m Todo coincide con lo que debía quedar
+[94m▶[0m Probar Muelle
+[91m✖[0m Algo no ha ido bien; estoy dejando todo como estaba.
+[93m⚠[0m La entrega queda apartada en .muelle/paquetes/2026-10-21-204954-211, marcada como rechazada.
+
+[90m╭────────────────────────────────────────────────────────────────╮[0m
+[90m│[0m [1;96mInstalador de Muelle[0m                                           [90m│[0m
+[90m├────────────────────────────────────────────────────────────────┤[0m
+[90m│[0m Fecha             Entrega      Estado       Archivos           [90m│[0m
+[90m│[0m                                                                [90m│[0m
+[90m│[0m 2026-10-21 20:49  0.3.2        deshecho     1                  [90m│[0m
+[90m│[0m 2026-10-21 20:49  0.3.1        instalado    1                  [90m│[0m
+[90m╰────────────────────────────────────────────────────────────────╯[0m
+[92m✓[0m Hoy se puede volver a lo de 2026-10-21.
+
+[92m✓[0m El archivo está como se instaló.
+
+[92m✓[0m Muelle ha vuelto a como estaba el 2026-10-21.

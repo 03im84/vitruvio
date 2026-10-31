@@ -1,0 +1,59 @@
+╭────────────────────────────────────────────────────────────╮
+│ Instalador de Muelle  ›  instalado                         │
+├────────────────────────────────────────────────────────────┤
+│ ✓ No hay nada a medias                                     │
+│ ✓ Muelle está parado                                       │
+│ ✓ Entrega 0.3.1, 3 archivos                                │
+│ ✓ Las 3 firmas coinciden                                   │
+│ ✓ Caben los 2 MB que hacen falta                           │
+│ ✓ Copia guardada: 3 archivos                               │
+│ ✓ 3 archivos colocados                                     │
+│ ✓ Todo coincide con lo que debía quedar                    │
+│ ✓ Las pruebas de Muelle salen bien                         │
+│ ▶ Hecho                                                    │
+│                                                            │
+│ █████████████████████████████████████████░░░░░  90%        │
+│                                                            │
+│ ✓ Instalada la entrega 0.3.1.                              │
+│ ⚠ La entrega queda guardada en .muelle/paquetes/2026-10-2… │
+╰────────────────────────────────────────────────────────────╯
+
+╭────────────────────────────────────────────────────────────╮
+│ Muelle installer  ›  installed                             │
+├────────────────────────────────────────────────────────────┤
+│ ✓ Nothing was left half done                               │
+│ ✓ Muelle is stopped                                        │
+│ ✓ Delivery 0.3.1, 3 files                                  │
+│ ✓ All 3 signatures match                                   │
+│ ✓ The 2 MB needed do fit                                   │
+│ ✓ Copy saved: 3 files                                      │
+│ ✓ 3 files in place                                         │
+│ ✓ Everything matches what should be there                  │
+│ ✓ Muelle's own tests pass                                  │
+│ ▶ Done                                                     │
+│                                                            │
+│ █████████████████████████████████████████░░░░░  90%        │
+│                                                            │
+│ ✓ Delivery 0.3.1 installed.                                │
+│ ⚠ The delivery is kept in .muelle/paquetes/2026-10-21/.    │
+╰────────────────────────────────────────────────────────────╯
+
++------------------------------------------------------------+
+| Instalador de Muelle  >  instalado                         |
++------------------------------------------------------------+
+| [ok] No hay nada a medias                                  |
+| [ok] Muelle está parado                                    |
+| [ok] Entrega 0.3.1, 3 archivos                             |
+| [ok] Las 3 firmas coinciden                                |
+| [ok] Caben los 2 MB que hacen falta                        |
+| [ok] Copia guardada: 3 archivos                            |
+| [ok] 3 archivos colocados                                  |
+| [ok] Todo coincide con lo que debía quedar                 |
+| [ok] Las pruebas de Muelle salen bien                      |
+| > Hecho                                                    |
+|                                                            |
+| #########################################.....  90%        |
+|                                                            |
+| [ok] Instalada la entrega 0.3.1.                           |
+| [!] La entrega queda guardada en .muelle/paquetes/2026-10… |
++------------------------------------------------------------+

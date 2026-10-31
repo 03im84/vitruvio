@@ -1,0 +1,133 @@
+{
+  "nombre": "blanco_calido",
+  "clave_nombre": "tema.blanco_calido",
+  "fondo_claro": false,
+  "_propuesta": "Pendiente de aprobación (acta nº4). Fuera del producto hasta que se apruebe.",
+  "_idea": "Papel viejo sobre negro: neutro, sin tinte que canse.",
+  "_derivado_de": {
+    "texto": "#E8E2C8",
+    "fondo": "#171712"
+  },
+  "fondo": {
+    "rgb": [
+      23,
+      23,
+      18
+    ]
+  },
+  "tokens": {
+    "texto": {
+      "rgb": [
+        232,
+        226,
+        200
+      ],
+      "basico": 37
+    },
+    "tenue": {
+      "rgb": [
+        138,
+        135,
+        118
+      ],
+      "basico": 90
+    },
+    "titulo": {
+      "rgb": [
+        240,
+        236,
+        219
+      ],
+      "basico": 97,
+      "negrita": true
+    },
+    "acento": {
+      "rgb": [
+        237,
+        232,
+        211
+      ],
+      "basico": 97
+    },
+    "exito": {
+      "rgb": [
+        232,
+        226,
+        200
+      ],
+      "basico": 37
+    },
+    "aviso": {
+      "rgb": [
+        242,
+        239,
+        225
+      ],
+      "basico": 97,
+      "negrita": true
+    },
+    "error": {
+      "rgb": [
+        246,
+        244,
+        234
+      ],
+      "basico": 97,
+      "negrita": true
+    },
+    "borde": {
+      "rgb": [
+        102,
+        100,
+        87
+      ],
+      "basico": 90
+    },
+    "resaltado": {
+      "rgb": [
+        245,
+        242,
+        230
+      ],
+      "basico": 97,
+      "negrita": true,
+      "fondo": [
+        73,
+        72,
+        62
+      ]
+    },
+    "etiqueta": {
+      "rgb": [
+        173,
+        169,
+        149
+      ],
+      "basico": 37
+    },
+    "valor": {
+      "rgb": [
+        235,
+        229,
+        207
+      ],
+      "basico": 97
+    },
+    "barra_llena": {
+      "rgb": [
+        232,
+        226,
+        200
+      ],
+      "basico": 37
+    },
+    "barra_vacia": {
+      "rgb": [
+        73,
+        72,
+        62
+      ],
+      "basico": 90
+    }
+  }
+}

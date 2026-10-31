@@ -1,0 +1,40 @@
+[90m╭────────────────────────────────────────────────────────────╮[0m
+[90m│[0m [1;96mInstalador de Muelle  ›  instalado[0m                         [90m│[0m
+[90m├────────────────────────────────────────────────────────────┤[0m
+[90m│[0m [92m✓[0m No hay nada a medias                                     [90m│[0m
+[90m│[0m [92m✓[0m Muelle está parado                                       [90m│[0m
+[90m│[0m [92m✓[0m Entrega 0.3.1, 3 archivos                                [90m│[0m
+[90m│[0m [92m✓[0m Las 3 firmas coinciden                                   [90m│[0m
+[90m│[0m [92m✓[0m Caben los 2 MB que hacen falta                           [90m│[0m
+[90m│[0m [92m✓[0m Copia guardada: 3 archivos                               [90m│[0m
+[90m│[0m [92m✓[0m 3 archivos colocados                                     [90m│[0m
+[90m│[0m [92m✓[0m Todo coincide con lo que debía quedar                    [90m│[0m
+[90m│[0m [92m✓[0m Las pruebas de Muelle salen bien                         [90m│[0m
+[90m│[0m [94m▶[0m Hecho                                                    [90m│[0m
+[90m│[0m                                                            [90m│[0m
+[90m│[0m [92m█████████████████████████████████████████[0m[90m░░░░░[0m  90%        [90m│[0m
+[90m│[0m                                                            [90m│[0m
+[90m│[0m [92m✓[0m Instalada la entrega 0.3.1.                              [90m│[0m
+[90m│[0m [93m⚠[0m La entrega queda guardada en .muelle/paquetes/2026-10-2… [90m│[0m
+[90m╰────────────────────────────────────────────────────────────╯[0m
+
+[90m╭────────────────────────────────────────────────────────────╮[0m
+[90m│[0m [1;96mMuelle installer  ›  installed[0m                             [90m│[0m
+[90m├────────────────────────────────────────────────────────────┤[0m
+[90m│[0m [92m✓[0m Nothing was left half done                               [90m│[0m
+[90m│[0m [92m✓[0m Muelle is stopped                                        [90m│[0m
+[90m│[0m [92m✓[0m Delivery 0.3.1, 3 files                                  [90m│[0m
+[90m│[0m [92m✓[0m All 3 signatures match                                   [90m│[0m
+[90m│[0m [92m✓[0m The 2 MB needed do fit                                   [90m│[0m
+[90m│[0m [92m✓[0m Copy saved: 3 files                                      [90m│[0m
+[90m│[0m [92m✓[0m 3 files in place                                         [90m│[0m
+[90m│[0m [92m✓[0m Everything matches what should be there                  [90m│[0m
+[90m│[0m [92m✓[0m Muelle's own tests pass                                  [90m│[0m
+[90m│[0m [94m▶[0m Done                                                     [90m│[0m
+[90m│[0m                                                            [90m│[0m
+[90m│[0m [92m█████████████████████████████████████████[0m[90m░░░░░[0m  90%        [90m│[0m
+[90m│[0m                                                            [90m│[0m
+[90m│[0m [92m✓[0m Delivery 0.3.1 installed.                                [90m│[0m
+[90m│[0m [93m⚠[0m The delivery is kept in .muelle/paquetes/2026-10-21/.    [90m│[0m
+[90m╰────────────────────────────────────────────────────────────╯[0m
+

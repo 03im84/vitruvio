@@ -1,0 +1,22 @@
+{
+  "nombre": "alto_contraste",
+  "clave_nombre": "tema.alto_contraste",
+  "fondo_claro": false,
+  "_propuesta": "Pendiente de aprobación. No forma parte del producto hasta que se apruebe (acta nº4).",
+  "_para": "Baja visión, pantallas con reflejos, proyectores. Contraste AAA sobre negro, todo en negrita.",
+  "tokens": {
+    "texto":       { "rgb": [255, 255, 255], "basico": 97, "negrita": true },
+    "tenue":       { "rgb": [190, 190, 190], "basico": 37 },
+    "titulo":      { "rgb": [  0, 255, 255], "basico": 96, "negrita": true },
+    "acento":      { "rgb": [  0, 255, 255], "basico": 96, "negrita": true },
+    "exito":       { "rgb": [  0, 255,   0], "basico": 92, "negrita": true },
+    "aviso":       { "rgb": [255, 255,   0], "basico": 93, "negrita": true },
+    "error":       { "rgb": [255,  85,  85], "basico": 91, "negrita": true },
+    "borde":       { "rgb": [255, 255, 255], "basico": 97 },
+    "resaltado":   { "rgb": [  0,   0,   0], "basico": 30, "negrita": true, "fondo": [255, 255, 0] },
+    "etiqueta":    { "rgb": [255, 255, 255], "basico": 97 },
+    "valor":       { "rgb": [255, 255, 255], "basico": 97, "negrita": true },
+    "barra_llena": { "rgb": [  0, 255,   0], "basico": 92, "negrita": true },
+    "barra_vacia": { "rgb": [120, 120, 120], "basico": 90 }
+  }
+}

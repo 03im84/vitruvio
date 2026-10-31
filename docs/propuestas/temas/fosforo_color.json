@@ -1,0 +1,137 @@
+{
+  "nombre": "fosforo_color",
+  "clave_nombre": "tema.fosforo_color",
+  "fondo_claro": false,
+  "_propuesta": "Pendiente de aprobación (acta nº4). Fuera del producto hasta que se apruebe.",
+  "_idea": "El fósforo verde con roles de color completos: prompt, órdenes, carpetas, errores y selección.",
+  "_roles": {
+    "Fondo": "#071A0D",
+    "Texto normal": "#33FF66",
+    "Prompt": "#A8FFB0",
+    "Comandos": "#FFB000",
+    "Directorios": "#66FF99",
+    "Errores": "#FF5C5C",
+    "Selección": "texto #E8FFE8 sobre fondo #1E6B3A"
+  },
+  "fondo": {
+    "rgb": [
+      7,
+      26,
+      13
+    ]
+  },
+  "tokens": {
+    "texto": {
+      "rgb": [
+        51,
+        255,
+        102
+      ],
+      "basico": 92
+    },
+    "tenue": {
+      "rgb": [
+        29,
+        140,
+        58
+      ],
+      "basico": 32
+    },
+    "titulo": {
+      "rgb": [
+        102,
+        255,
+        153
+      ],
+      "basico": 92,
+      "negrita": true
+    },
+    "acento": {
+      "rgb": [
+        168,
+        255,
+        176
+      ],
+      "basico": 92
+    },
+    "exito": {
+      "rgb": [
+        102,
+        255,
+        153
+      ],
+      "basico": 92
+    },
+    "aviso": {
+      "rgb": [
+        255,
+        176,
+        0
+      ],
+      "basico": 93
+    },
+    "error": {
+      "rgb": [
+        255,
+        92,
+        92
+      ],
+      "basico": 91,
+      "negrita": true
+    },
+    "borde": {
+      "rgb": [
+        22,
+        104,
+        43
+      ],
+      "basico": 32
+    },
+    "resaltado": {
+      "rgb": [
+        232,
+        255,
+        232
+      ],
+      "basico": 97,
+      "negrita": true,
+      "fondo": [
+        30,
+        107,
+        58
+      ]
+    },
+    "etiqueta": {
+      "rgb": [
+        37,
+        182,
+        74
+      ],
+      "basico": 32
+    },
+    "valor": {
+      "rgb": [
+        255,
+        176,
+        0
+      ],
+      "basico": 93
+    },
+    "barra_llena": {
+      "rgb": [
+        51,
+        255,
+        102
+      ],
+      "basico": 92
+    },
+    "barra_vacia": {
+      "rgb": [
+        17,
+        76,
+        33
+      ],
+      "basico": 90
+    }
+  }
+}

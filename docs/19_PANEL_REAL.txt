@@ -1,0 +1,41 @@
+$ muelle panel   (normal, tema oscuro, descarga real en curso)
+ muelle  comparte una carpeta   03:42   ● 1 conexión   sin cifrado
+╭─ servidor ───────────────────────────────────────────────────────────────────────────────────╮
+│   Dirección  ftp://127.0.0.1:63831                                                           │
+│   Carpeta    /tmp/muelle-prueba-lznvt1cr/compartido                                          │
+│   En marcha  0:02  hoy 0 B subido · 0 B bajado                                               │
+│   Espacio  █░░░░░░░░░░░░░░░░░░░  7 %  923,7 MB libres                                        │
+│   Subiendo  ▁▁▁▁▁                                                                            │
+│   Bajando  ▁████  612,9 KB/s                                                                 │
+╰──────────────────────────────────────────────────────────────────────────────────────────────╯
+╭─ gente ──────────────╮╭─ avisos ─────────────────────────────╮╭─ puertas ────────────────────╮
+│ ● prueba             ││ ⚠ Nadie cifra la conexión            ││   Control  63831             │
+╰──────────────────────╯╰──────────────────────────────────────╯│   Datos    27445-27470       │
+                                                                │   En uso   1                 │
+                                                                │   Red      local             │
+                                                                ╰──────────────────────────────╯
+╭─ conexiones ─────────────────────────────────────────────────────────────────────────────────╮
+│   Quién   Equipo     Qué hace     Archivo             Avance            Velocidad  Rato      │
+│ ───────────────────────────────────────────────────────────────────────────────────────      │
+│ › prueba  127.0.0.1  descargando  /informe-anual.pdf  █████░░░░░ 48 %  612,9 KB/s  0:02      │
+╰──────────────────────────────────────────────────────────────────────────────────────────────╯
+╭─ detalle ────────────────────────────────────────────────────────────────────────────────────╮
+│   Permisos    Control total                                                                  │
+│   Su carpeta  /tmp/muelle-prueba-lznvt1cr/compartido/prueba                                  │
+╰──────────────────────────────────────────────────────────────────────────────────────────────╯
+ ↑↓ elegir  •  t tema  •  +− tamaño  •  p pausar  •  q salir
+
+$ muelle panel   (compacto, tema claro, descarga real en curso)
+ muelle  comparte una carpeta   03:42   ● 1 conexión   sin cifrado
+servidor
+    Dirección  ftp://127.0.0.1:63831
+    Carpeta    /tmp/muelle-prueba-lznvt1cr/compartido
+    En marcha  0:04  hoy 0 B subido · 0 B bajado
+    Espacio  █░░░░░░░░░░░  7 %  923,7 MB libres
+    Subiendo  ▁▁▁▁▁  
+    Bajando  █████  612,7 KB/s
+conexiones
+    Quién   Equipo     Qué hace     Archivo             Avance         
+  ─────────────────────────────────────────────────────────────────────
+  › prueba  127.0.0.1  descargando  /informe-anual.pdf  ██████████ 96 %
+ ↑↓ elegir  •  t tema  •  +− tamaño  •  p pausar  •  q salir

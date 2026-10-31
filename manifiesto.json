@@ -1,0 +1,74 @@
+{
+  "esquema": "manifest.v1",
+  "entrega": "vitruvio",
+  "version": "1.0.0-r13",
+  "fecha": "2026-10-27",
+  "archivos": [
+    {
+      "ruta": "vitruvio.py",
+      "firma": "b5b443481c814cdca01f03e7996ff9c957195d30e5b0f2df8e1bbbfd8c8fcd5d",
+      "accion": "add",
+      "bytes": 525
+    },
+    {
+      "ruta": "vitruvio/__init__.py",
+      "firma": "ade9e0e28b38664db841eb3246abb05b30e79df978c113007700ddf512385c4c",
+      "accion": "add",
+      "bytes": 489
+    },
+    {
+      "ruta": "vitruvio/__main__.py",
+      "firma": "e94dffbf2a177b310dcc4b0a7d61e62e686dc824265670e0025373ea0d25da5e",
+      "accion": "add",
+      "bytes": 1296
+    },
+    {
+      "ruta": "vitruvio/config.py",
+      "firma": "6a1cdc3e1994ef497e651c22e3795e8af93c3cc53f8370436c58193e9e4268e1",
+      "accion": "add",
+      "bytes": 11265
+    },
+    {
+      "ruta": "vitruvio/contract.py",
+      "firma": "4ad7e53fdc77962c2eca616d9e0d1f0f1adb18080230189e9971f90f355c0901",
+      "accion": "add",
+      "bytes": 2961
+    },
+    {
+      "ruta": "vitruvio/layout.py",
+      "firma": "172445204880bc7dbd8177707d4de892ec8e48623ab698577ba02fdf01f2894e",
+      "accion": "add",
+      "bytes": 993
+    },
+    {
+      "ruta": "vitruvio/localization.py",
+      "firma": "b8cc8cbd82132e8c918ad503aa60d395861961b2ad1ae4352413263c1ef0ed6f",
+      "accion": "add",
+      "bytes": 3545
+    },
+    {
+      "ruta": "vitruvio/resources/i18n/en.json",
+      "firma": "437ffced380a22e8741c024e2af9ffb403d1903d8317b03215aa03beaf8f9614",
+      "accion": "add",
+      "bytes": 8001
+    },
+    {
+      "ruta": "vitruvio/resources/i18n/es.json",
+      "firma": "60f73db9a81c99021c5ec70872aab68adec9858d08992493b0503e2597724541",
+      "accion": "add",
+      "bytes": 8485
+    },
+    {
+      "ruta": "vitruvio/view.py",
+      "firma": "4a5924c5409a02bd9d07c777a910b762340d4bd3508b01f79824f2fb42e89c01",
+      "accion": "add",
+      "bytes": 2096
+    },
+    {
+      "ruta": "vitruvio/vitruvio.py",
+      "firma": "0480c864ec4defc0d68d676986d233031f6b1a7cf36c78e483db597c64c0e141",
+      "accion": "add",
+      "bytes": 30207
+    }
+  ]
+}

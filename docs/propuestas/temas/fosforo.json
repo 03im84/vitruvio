@@ -1,0 +1,133 @@
+{
+  "nombre": "fosforo",
+  "clave_nombre": "tema.fosforo",
+  "fondo_claro": false,
+  "_propuesta": "Pendiente de aprobación (acta nº4). Fuera del producto hasta que se apruebe.",
+  "_idea": "Tubo de fósforo verde, el clásico de las salas de máquinas.",
+  "_derivado_de": {
+    "texto": "#33FF66",
+    "fondo": "#071A0D"
+  },
+  "fondo": {
+    "rgb": [
+      7,
+      26,
+      13
+    ]
+  },
+  "tokens": {
+    "texto": {
+      "rgb": [
+        51,
+        255,
+        102
+      ],
+      "basico": 32
+    },
+    "tenue": {
+      "rgb": [
+        31,
+        152,
+        62
+      ],
+      "basico": 90
+    },
+    "titulo": {
+      "rgb": [
+        122,
+        255,
+        156
+      ],
+      "basico": 92,
+      "negrita": true
+    },
+    "acento": {
+      "rgb": [
+        92,
+        255,
+        133
+      ],
+      "basico": 92
+    },
+    "exito": {
+      "rgb": [
+        51,
+        255,
+        102
+      ],
+      "basico": 32
+    },
+    "aviso": {
+      "rgb": [
+        143,
+        255,
+        171
+      ],
+      "basico": 92,
+      "negrita": true
+    },
+    "error": {
+      "rgb": [
+        177,
+        255,
+        197
+      ],
+      "basico": 97,
+      "negrita": true
+    },
+    "borde": {
+      "rgb": [
+        24,
+        113,
+        47
+      ],
+      "basico": 90
+    },
+    "resaltado": {
+      "rgb": [
+        163,
+        255,
+        186
+      ],
+      "basico": 97,
+      "negrita": true,
+      "fondo": [
+        18,
+        81,
+        34
+      ]
+    },
+    "etiqueta": {
+      "rgb": [
+        39,
+        191,
+        77
+      ],
+      "basico": 32
+    },
+    "valor": {
+      "rgb": [
+        75,
+        255,
+        120
+      ],
+      "basico": 92
+    },
+    "barra_llena": {
+      "rgb": [
+        51,
+        255,
+        102
+      ],
+      "basico": 32
+    },
+    "barra_vacia": {
+      "rgb": [
+        18,
+        81,
+        34
+      ],
+      "basico": 90
+    }
+  }
+}

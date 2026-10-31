@@ -1,0 +1,133 @@
+{
+  "nombre": "ambar",
+  "clave_nombre": "tema.ambar",
+  "fondo_claro": false,
+  "_propuesta": "Pendiente de aprobación (acta nº4). Fuera del producto hasta que se apruebe.",
+  "_idea": "Terminal ámbar (VT220, IBM 3279): menos azul, menos fatiga.",
+  "_derivado_de": {
+    "texto": "#FFB000",
+    "fondo": "#1C1000"
+  },
+  "fondo": {
+    "rgb": [
+      28,
+      16,
+      0
+    ]
+  },
+  "tokens": {
+    "texto": {
+      "rgb": [
+        255,
+        176,
+        0
+      ],
+      "basico": 33
+    },
+    "tenue": {
+      "rgb": [
+        153,
+        104,
+        0
+      ],
+      "basico": 90
+    },
+    "titulo": {
+      "rgb": [
+        255,
+        204,
+        89
+      ],
+      "basico": 93,
+      "negrita": true
+    },
+    "acento": {
+      "rgb": [
+        255,
+        192,
+        51
+      ],
+      "basico": 93
+    },
+    "exito": {
+      "rgb": [
+        255,
+        176,
+        0
+      ],
+      "basico": 33
+    },
+    "aviso": {
+      "rgb": [
+        255,
+        212,
+        115
+      ],
+      "basico": 93,
+      "negrita": true
+    },
+    "error": {
+      "rgb": [
+        255,
+        225,
+        158
+      ],
+      "basico": 97,
+      "negrita": true
+    },
+    "borde": {
+      "rgb": [
+        114,
+        77,
+        0
+      ],
+      "basico": 90
+    },
+    "resaltado": {
+      "rgb": [
+        255,
+        219,
+        140
+      ],
+      "basico": 97,
+      "negrita": true,
+      "fondo": [
+        82,
+        54,
+        0
+      ]
+    },
+    "etiqueta": {
+      "rgb": [
+        191,
+        131,
+        0
+      ],
+      "basico": 33
+    },
+    "valor": {
+      "rgb": [
+        255,
+        185,
+        31
+      ],
+      "basico": 93
+    },
+    "barra_llena": {
+      "rgb": [
+        255,
+        176,
+        0
+      ],
+      "basico": 33
+    },
+    "barra_vacia": {
+      "rgb": [
+        82,
+        54,
+        0
+      ],
+      "basico": 90
+    }
+  }
+}

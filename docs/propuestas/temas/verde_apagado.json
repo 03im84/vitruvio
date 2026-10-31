@@ -1,0 +1,133 @@
+{
+  "nombre": "verde_apagado",
+  "clave_nombre": "tema.verde_apagado",
+  "fondo_claro": false,
+  "_propuesta": "Pendiente de aprobación (acta nº4). Fuera del producto hasta que se apruebe.",
+  "_idea": "Fósforo cansado: el verde sin gritar, para sesiones largas.",
+  "_derivado_de": {
+    "texto": "#A8C686",
+    "fondo": "#20291B"
+  },
+  "fondo": {
+    "rgb": [
+      32,
+      41,
+      27
+    ]
+  },
+  "tokens": {
+    "texto": {
+      "rgb": [
+        168,
+        198,
+        134
+      ],
+      "basico": 32
+    },
+    "tenue": {
+      "rgb": [
+        107,
+        127,
+        86
+      ],
+      "basico": 90
+    },
+    "titulo": {
+      "rgb": [
+        198,
+        218,
+        176
+      ],
+      "basico": 32,
+      "negrita": true
+    },
+    "acento": {
+      "rgb": [
+        185,
+        209,
+        158
+      ],
+      "basico": 32
+    },
+    "exito": {
+      "rgb": [
+        168,
+        198,
+        134
+      ],
+      "basico": 32
+    },
+    "aviso": {
+      "rgb": [
+        207,
+        224,
+        188
+      ],
+      "basico": 32,
+      "negrita": true
+    },
+    "error": {
+      "rgb": [
+        222,
+        233,
+        209
+      ],
+      "basico": 97,
+      "negrita": true
+    },
+    "borde": {
+      "rgb": [
+        84,
+        101,
+        68
+      ],
+      "basico": 90
+    },
+    "resaltado": {
+      "rgb": [
+        216,
+        229,
+        201
+      ],
+      "basico": 97,
+      "negrita": true,
+      "fondo": [
+        65,
+        79,
+        53
+      ]
+    },
+    "etiqueta": {
+      "rgb": [
+        130,
+        154,
+        104
+      ],
+      "basico": 32
+    },
+    "valor": {
+      "rgb": [
+        178,
+        205,
+        149
+      ],
+      "basico": 32
+    },
+    "barra_llena": {
+      "rgb": [
+        168,
+        198,
+        134
+      ],
+      "basico": 32
+    },
+    "barra_vacia": {
+      "rgb": [
+        65,
+        79,
+        53
+      ],
+      "basico": 90
+    }
+  }
+}

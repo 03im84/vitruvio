@@ -1,0 +1,22 @@
+{
+  "nombre": "daltonico",
+  "clave_nombre": "tema.daltonico",
+  "fondo_claro": false,
+  "_propuesta": "Pendiente de aprobación. No forma parte del producto hasta que se apruebe (acta nº4).",
+  "_para": "Daltonismo rojo-verde (deuteranopía y protanopía, ~8 % de los hombres). Bien y mal se distinguen por azul vs. naranja, nunca por verde vs. rojo, y además por símbolo.",
+  "tokens": {
+    "texto":       { "rgb": [226, 228, 233], "basico": 37 },
+    "tenue":       { "rgb": [134, 140, 152], "basico": 90 },
+    "titulo":      { "rgb": [ 86, 180, 233], "basico": 96, "negrita": true },
+    "acento":      { "rgb": [ 86, 180, 233], "basico": 96 },
+    "exito":       { "rgb": [ 86, 180, 233], "basico": 94 },
+    "aviso":       { "rgb": [230, 159,   0], "basico": 93 },
+    "error":       { "rgb": [213,  94,   0], "basico": 91, "negrita": true },
+    "borde":       { "rgb": [ 95, 103, 117], "basico": 90 },
+    "resaltado":   { "rgb": [245, 245, 245], "basico": 97, "negrita": true },
+    "etiqueta":    { "rgb": [164, 172, 186], "basico": 37 },
+    "valor":       { "rgb": [226, 228, 233], "basico": 97 },
+    "barra_llena": { "rgb": [ 86, 180, 233], "basico": 94 },
+    "barra_vacia": { "rgb": [ 72,  78,  92], "basico": 90 }
+  }
+}
